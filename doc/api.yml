@@ -83,8 +83,6 @@ paths:
                 $ref: "#/components/schemas/SingleUserInfo"
   '/roadContunier':
     post:
-      tags:
-        -Processing
       description: Process an GeoJson from a given GeoJSON, zoom, and size.
       requestBody:
         required: true
